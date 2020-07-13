@@ -5,9 +5,8 @@
 2020-07-08 09:39:19 +0000|!|192.168.179.252|!|admin|!|tty66|!|192.168.179.1|!|shell login succeeded
 2020-07-08 09:39:19 +0000|!|192.168.179.252|!|admin|!|tty66|!|192.168.179.1|!|shell login failed
 
-
 ## Accounting Log Example
-2020-07-08 08:42:51 +0000|!|192.168.179.252|!||!|tty0|!|async|!|stop|!|task_id=25|!|timezone=BST|!|service=shell|!|start_time=1594197717|!|priv-lvl=15|!|cmd=configure terminal <cr>
+```2020-07-08 08:42:51 +0000|!|192.168.179.252|!||!|tty0|!|async|!|stop|!|task_id=25|!|timezone=BST|!|service=shell|!|start_time=1594197717|!|priv-lvl=15|!|cmd=configure terminal <cr>
 2020-07-08 08:43:04 +0000|!|192.168.179.252|!||!|tty0|!|async|!|stop|!|task_id=26|!|timezone=BST|!|service=shell|!|start_time=1594197730|!|priv-lvl=15|!|cmd=aaa new-model <cr>
 2020-07-08 08:44:36 +0000|!|192.168.179.252|!||!|tty0|!|async|!|stop|!|task_id=27|!|timezone=BST|!|service=shell|!|start_time=1594197822|!|priv-lvl=15|!|cmd=aaa group server tacacs+ ROUTER <cr>
 2020-07-08 08:45:47 +0000|!|192.168.179.252|!||!|tty0|!|async|!|stop|!|task_id=28|!|timezone=BST|!|service=shell|!|start_time=1594197893|!|priv-lvl=15|!|cmd=aaa group server tacacs+ ROUTER <cr>
@@ -18,3 +17,5 @@
 2020-07-08 08:49:50 +0000|!|192.168.179.252|!||!|tty0|!|async|!|stop|!|task_id=33|!|timezone=BST|!|service=shell|!|start_time=1594198136|!|priv-lvl=15|!|cmd=aaa authentication enable default group ROUTER enable <cr>
 2020-07-08 08:50:20 +0000|!|192.168.179.252|!||!|tty0|!|async|!|stop|!|task_id=34|!|timezone=BST|!|service=shell|!|start_time=1594198167|!|priv-lvl=15|!|cmd=aaa accounting exec default start-stop group ROUTER <cr>
 2020-07-08 08:51:05 +0000|!|192.168.179.252|!||!|tty0|!|async|!|stop|!|task_id=35|!|timezone=BST|!|service=shell|!|start_time=1594198212|!|priv-lvl=15|!|cmd=aaa accounting commands 0 default start-stop group ROUTER <cr>
+
+```
