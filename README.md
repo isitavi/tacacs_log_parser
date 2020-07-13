@@ -6,7 +6,7 @@
 2020-07-08 09:39:19 +0000|!|192.168.179.252|!|admin|!|tty66|!|192.168.179.1|!|shell login failed
 ```
 
-## Accounting Log Example
+## Accounting Log 
 ```2020-07-08 08:42:51 +0000|!|192.168.179.252|!||!|tty0|!|async|!|stop|!|task_id=25|!|timezone=BST|!|service=shell|!|start_time=1594197717|!|priv-lvl=15|!|cmd=configure terminal <cr>
 2020-07-08 08:43:04 +0000|!|192.168.179.252|!||!|tty0|!|async|!|stop|!|task_id=26|!|timezone=BST|!|service=shell|!|start_time=1594197730|!|priv-lvl=15|!|cmd=aaa new-model <cr>
 2020-07-08 08:44:36 +0000|!|192.168.179.252|!||!|tty0|!|async|!|stop|!|task_id=27|!|timezone=BST|!|service=shell|!|start_time=1594197822|!|priv-lvl=15|!|cmd=aaa group server tacacs+ ROUTER <cr>
